@@ -16,6 +16,33 @@
             </div>
         </div>
     </div>
+    <!-- EthereumAds -->
+    <div id="EthereumAds-default"></div>
+    <script src="https://ethereumads.com/adviewer.js">
+    </script>
+    <script>
+        EthereumAds.initAdSlot({
+            acceptedCurrencies: ["ALL"], // option ALL for all whitelisted tokens, ETH for Ethereum, DAI for DAI Stablecoin
+            //validatorEndpoint:"", // optional custom validator
+            mediaType: "image_336x280",
+            fallback: "default", // default, none, custom url
+            slot: "default",
+            address: "0xC419C8f7A11cD44297e1dD9c8830A1E04D72B177",
+            platform: "",
+            affiliate: "",
+            keywords: "", //comma separatedy
+            adult: false,
+            version: "1.00"
+        });
+        /*
+         for responsive ads add and adjust this according to your needs:
+         responsive: [
+             { mediaType: "image_728x90", minWidth: 728 },
+             { mediaType: "image_300x600" }
+         ],
+        */
+    </script>
+    <!-- /EthereumAds -->
     <iframe data-aa='2352246' src='//ad.a-ads.com/2352246?size=120x60'
         style='width:120px; height:60px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
         <iframe data-aa='2352246' src='//ad.a-ads.com/2352246?size=120x60'
